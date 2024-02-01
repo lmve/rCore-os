@@ -9,4 +9,3 @@
 ### For every reader
 While the world sleeps, you dream!
 Be difference, leave something worth!
-
