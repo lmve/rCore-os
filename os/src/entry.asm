@@ -1,11 +1,19 @@
 #
 # entry.asm    os/src/entry.asm
 # 2024.2.1    luckyma
-#
+# revise 2.4
 
-.section .text.entry
-.globl _start
+    .section .text.entry
+    .globl _start
 _start:
-    li x1, 100  # li is load lmmediate 
+    la sp, boot_stack_top
+    call rust_main
+
+    .section .bss.stack
+    .globl boot_stack_lower_bound
+boot_stack_lower_bound:
+    .space 4096 * 16
+    .globl boot_stack_top
+boot_stack_top:
 
 

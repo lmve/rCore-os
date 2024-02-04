@@ -1,1 +1,1 @@
-/home/lm/Desktop/rCore-os/os/target/riscv64gc-unknown-none-elf/release/os: /home/lm/Desktop/rCore-os/os/src/entry.asm /home/lm/Desktop/rCore-os/os/src/lang_items.rs /home/lm/Desktop/rCore-os/os/src/main.rs
+/home/lm/Desktop/rCore-os/os/target/riscv64gc-unknown-none-elf/release/os: /home/lm/Desktop/rCore-os/os/src/console.rs /home/lm/Desktop/rCore-os/os/src/entry.asm /home/lm/Desktop/rCore-os/os/src/lang_items.rs /home/lm/Desktop/rCore-os/os/src/main.rs /home/lm/Desktop/rCore-os/os/src/sbi.rs
